@@ -63,23 +63,25 @@ Transformers achieved the best classification performance, while CNNs provided t
    cd deep-learning-cancer-classification
    
 2. **Install dependencies**
-
+```bash
 pip install -r requirements.txt
+```
 
 3. **Run preprocessing**
-python preprocess_data.py
-
+```bash
+        python preprocess_data.py
+```
 4. **Train models**
-
+```bash
 python train_cnn.py
 python train_rnn.py
 python train_transformer.py
-
+```
 
 5. **Evaluate models**
-
+```bash
 python evaluate_models.py
-
+```
 ## Future Enhancements
 
 🔬 Integration of multi-omics data (genomic + proteomic + transcriptomic).
